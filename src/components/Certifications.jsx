@@ -1,17 +1,27 @@
 import React from 'react';
 import Card from './Card.jsx';
 import SectionWrapper from './SectionWrapper.jsx';
+import dsa from '../assets/dsa.jpg'
+import JPMorgan from '../assets/JPMorgan.jpg'
 
 // List of certifications – expand as needed.
 const certifications = [
   {
-    title: 'AWS Certified Solutions Architect – Associate',
-    subtitle: 'Amazon Web Services',
-    description: 'Validated expertise in designing distributed systems on AWS.',
-    imageSrc: '/assets/aws-cert.png',
-    link: 'https://www.yourcertlink.com',
+    title: 'Mastering Data Structures and Algorithms',
+    subtitle: 'PW Skills',
+    description: 'completed the C++ with DSA course from Physics Wallah and earned my certificate!',
+    imageSrc: dsa,
+    link: 'https://pwskills.com/programming-courses/dsa-cpp/?source=pwskills.com&position=course_dropdown&from=home_page',
     term : "Learn More"
   },
+  {
+    title: 'Software Engineering Job Simulation',
+    subtitle: 'JPMorgan Chase & Co',
+    description: 'gained hands-on experience in setting up Spring Boot projects, integrating Kafka and implementing H2 database',
+    imageSrc: JPMorgan,
+    link: 'https://www.theforage.com/simulations/jpmorgan/advanced-software-engineering-r0fm',
+    term : "Learn More"
+  }
   // Add more certification objects here.
 ];
 

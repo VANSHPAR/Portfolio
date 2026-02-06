@@ -1,36 +1,37 @@
 import React from 'react';
 import Card from './Card.jsx';
 import SectionWrapper from './SectionWrapper.jsx';
+import cricsco from '../assets/cricsco.png'
 
 // Sample projects data – replace with real project objects or import from a JSON file.
 const projects = [
   {
     title: 'Uber Backend Project',
-    subtitle: 'React • Tailwind • Framer Motion',
-    description: 'Developed a scalable Spring Boot microservices platform with Eureka for service discovery and real-time driver–client tracking using Redis and WebSocket (STOMP).Implemented JWT authentication and inter-service communication with Kafka and Retrofit, and built modular booking, review, and driver services using Spring Security, JPA, and REST APIs',
+    subtitle: 'The Ride Booking App',
+    description: 'Developed a scalable Spring Boot microservices platform with real-time driver–client tracking using Redis and WebSocket. Implemented JWT authentication and inter-service communication with Kafka and Retrofit, and built modular booking, review, and driver services.',
     imageSrc: './assets/react.svg',
-    link: 'https://github.com/username/portfolio',
+    link: 'https://github.com/VANSHPAR/Uber_Complete_Backend_Project',
     term: "Source Code"
   },
   {
     title: 'CricSco',
     subtitle: 'The Live Cricket Score App',
     description: "Built a real-time cricket score platform using React, Javascript, Bootstrap and RapidAPI to display live,upcoming, and recent matches, with dynamic match cards, a multi- section navbar, and detailed match pages featuring Live Updates, Scorecards, and Match Info.",
-    imageSrc: './assets/react.svg',
-    link: 'https://github.com/username/portfolio',
+    imageSrc: '#',
+    link: 'https://react-live-cricket-score-app-git-main-vansh-parmars-projects.vercel.app/',
     term: "Live Preview"
   },
   {
   title: 'Vehicle Detection & Speed Estimation ',
-  subtitle: 'React • Tailwind • Framer Motion',
+  subtitle: 'Real Time Vehicle Detection',
   description: 'Developed a system to detect vehicles in video streams, track them across frames, and estimate real-time speed. Implemented using Python, OpenCV, YOLOv11 for object detection, SORT for object tracking, and NumPy for speed calculation',
   imageSrc: './assets/react.svg',
-  link: 'https://github.com/username/portfolio',
+  link: 'https://github.com/VANSHPAR/Vehicle_Detection_and_Speed_Estimation/blob/main/README.md',
   term: "Watch Demo"
   },
   {
   title: 'Email & SMS Spam Detection',
-    subtitle: 'React • Tailwind • Framer Motion',
+    subtitle: 'React • ',
     description: 'Developed a Email/SMS spam detection web app using Machine Learning with pandas, NumPy, NLTK, and scikit-learn, featuring an interactive Streamlit interface and Matplotlib visualizations for real-time message classification.',
     imageSrc: './assets/react.svg',
     link: 'https://emailorsmsspamclassifier-9tidt2s2igdmjwj4sf6s84.streamlit.app/',

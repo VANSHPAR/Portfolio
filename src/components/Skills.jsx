@@ -1,9 +1,10 @@
 import React from 'react';
 import SectionWrapper from './SectionWrapper.jsx';
 import { FaReact, FaNodeJs, FaJsSquare, FaHtml5, FaCss3Alt, FaGitAlt, FaDatabase,FaBrain, FaRobot, FaDocker } from 'react-icons/fa';
-import { SiSpringboot, SiSpringsecurity, SiOpencv, SiTensorflow, SiSpring, SiOpenai} from 'react-icons/si';
+import { SiSpringboot, SiSpringsecurity, SiOpencv, SiTensorflow, SiSpring, SiOpenai, SiN8N, SiLangchain, SiMake  } from 'react-icons/si';
 import { MdOutlinePsychology, MdAutoAwesome } from "react-icons/md";
 import { GiArtificialIntelligence } from "react-icons/gi";
+
 
 
 
@@ -23,8 +24,12 @@ const skills = [
   { name: 'OpenCV', level: 90, icon: <SiOpencv className="text-emerald-400" size={30} /> },
   { name: 'Generative AI', level: 80, icon: <GiArtificialIntelligence className="text-emerald-400" size={30} /> },
   { name: 'RAG (Retrieval Augmented Gen)', level: 78, icon: <MdAutoAwesome className="text-emerald-400" size={30} /> },
-  { name: 'LangChain', level: 80, icon: <SiOpenai className="text-emerald-400" size={30} /> },
+  { name: 'LangChain', level: 80, icon: <SiLangchain className="text-emerald-400" size={30} /> },
+  { name: 'LangGraph', level: 80, icon: <SiOpenai className="text-emerald-400" size={30} /> },
   { name: 'Agentic AI', level: 75, icon: <FaRobot className="text-emerald-400" size={30} /> },
+  { name: 'Make.com', level: 75, icon: <SiMake className="text-emerald-400" size={30} /> },
+  
+  { name: 'N8N', level: 75, icon: <SiN8N className="text-emerald-400" size={30} /> },
   
   { name: 'Git', level: 88, icon: <FaGitAlt className="text-emerald-400" size={30} /> },
   { name: 'Docker', level: 88, icon: <FaDocker className="text-emerald-400" size={30} /> },

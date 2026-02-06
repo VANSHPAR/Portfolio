@@ -5,7 +5,7 @@ const education = [
   {
     degree: 'B.E. Computer Science & Engineering',
     institution: 'The Maharaja Sayajirao University of Baroda',
-    period: '2013 – 2027',
+    period: '2023 – 2027',
     details: '',
   },
   // Additional entries if needed
