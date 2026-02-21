@@ -39,7 +39,7 @@ export default function Contact() {
 
   return (
     <SectionWrapper id="contact" bg="bg-navy-900" aosType="fade-up">
-      <h2 className="text-4xl font-bold mb-8 text-center text-emerald-400">
+      <h2 className="text-4xl  font-bold mb-8 text-center text-white">
         Contact Me
       </h2>
       <div className="max-w-xl mx-auto">

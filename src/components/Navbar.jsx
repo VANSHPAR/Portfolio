@@ -3,7 +3,7 @@ import { Link as ScrollLink } from 'react-scroll';
 import {Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
 const NAV_ITEMS = [
-  { name: 'Home', to: 'hero' },
+  { name: 'Home', to: 'home' },
   { name: 'Experience', to: 'experience' },
   { name: 'Projects', to: 'projects' },
   { name: 'Education', to: 'education' },

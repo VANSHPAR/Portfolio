@@ -28,7 +28,7 @@ const platforms = [
 export default function CodingPlatforms() {
   return (
     <SectionWrapper id="coding-platforms" bg="bg-navy-800" aosType="fade-up">
-      <h2 className="text-4xl font-bold mb-8 text-center text-emerald-400">
+      <h2 className="text-4xl font-bold mb-8 text-center text-white">
         Coding Platforms
       </h2>
       <div className="flex justify-center space-x-12">
