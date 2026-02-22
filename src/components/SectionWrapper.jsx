@@ -14,6 +14,7 @@ export default function SectionWrapper({ id, bg = 'bg-navy-900', aosType = 'fade
       id={id}
       className={`py-20 ${bg} text-white scroll-smooth`}
       data-aos={aosType}
+      data-aos-once="false"
     >
       <div className="container mx-auto px-4">{children}</div>
     </section>

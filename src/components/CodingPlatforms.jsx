@@ -31,7 +31,7 @@ export default function CodingPlatforms() {
       <h2 className="text-4xl font-bold mb-8 text-center text-white">
         Coding Platforms
       </h2>
-      <div className="flex justify-center space-x-12">
+      <div className=" flex justify-center space-x-12">
         {platforms.map((p, i) => (
           <a
             key={i}

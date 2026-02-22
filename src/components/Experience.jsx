@@ -35,25 +35,12 @@ import { motion } from "framer-motion";
 const experiences = [
   {
     id: 1,
-    company: "Company A",
-    role: "Frontend Engineer",
-    period: "2020‑2022",
-    description: "Developed responsive UI components using React and Tailwind CSS, improving page load speed by 30%.",
+    company: "C-DAC, Noida",
+    role: "Cyber Security Virtual Internship",
+    period: "May 2025 – Jun 2025",
+    description: "Gained hands-on experience in ethical hacking, vulnerability analysis, and penetration testing. Solved 21 quizzes, completed 3 advanced virtual labs, and 1 cyber security project under a mentor.",
   },
-  {
-    id: 2,
-    company: "Company B",
-    role: "Full‑Stack Developer",
-    period: "2022‑2023",
-    description: "Built end‑to‑end features with Node.js, Express, and PostgreSQL, handling over 10k daily active users.",
-  },
-  {
-    id: 3,
-    company: "Company C",
-    role: "Software Engineer Intern",
-    period: "Summer 2019",
-    description: "Assisted in migrating legacy codebase to modern React architecture and wrote unit tests.",
-  },
+  
 ];
 
 const Experience = () => {
@@ -73,7 +60,7 @@ const Experience = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: index * 0.2 }}
           >
-            <div className="rounded-lg bg-navy bg-opacity-80 p-6 shadow-soft">
+            <div className="rounded-lg bg-gray-800 bg-opacity-80 p-6 shadow-soft">
               <h3 className="text-xl font-semibold text-teal-400">{exp.role} @ {exp.company}</h3>
               <p className="text-sm text-gray-400 mb-2">{exp.period}</p>
               <p className="text-gray-200">{exp.description}</p>

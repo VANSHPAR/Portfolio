@@ -56,7 +56,7 @@ const Education = () => {
       {education.map((edu, index) => (
         <motion.div
           key={edu.id}
-          className="bg-navy bg-opacity-80 rounded-lg p-6 shadow-soft mb-4"
+          className="bg-gray-800 bg-opacity-80 rounded-lg p-6 shadow-soft mb-4"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: index * 0.2 }}

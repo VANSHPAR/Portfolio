@@ -57,7 +57,7 @@ const scrollToSection = (id) => {
 };
 
 // Personal data – adjust as needed
-const name = "Your Name";
+const name = "Vansh Parmar";
 const role = "Full‑Stack Developer";
 const tagline = "Building performant, beautiful web experiences.";
 
@@ -103,7 +103,7 @@ const Hero = () => {
       {/* Call‑to‑Action Buttons */}
       <div className="flex space-x-4">
         <a
-          href="/resume.pdf"
+          href="/Vansh_Parmar_Resume.pdf"
           download
           className="px-6 py-3 bg-teal-600 hover:bg-teal-500 text-white rounded transition-colors"
         >

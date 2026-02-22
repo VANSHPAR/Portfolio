@@ -1,6 +1,6 @@
 // import React from 'react';
 // import SectionWrapper from './SectionWrapper.jsx';
-// import { FaReact, FaNodeJs, FaJsSquare, FaHtml5, FaCss3Alt, FaGitAlt, FaDatabase,FaBrain, FaRobot, FaDocker } from 'react-icons/fa';
+// import { FaReact,  FaHtml5, FaCss3Alt, FaGitAlt, FaDatabase,FaBrain, FaRobot } from 'react-icons/fa';
 import { SiSpringboot, SiSpringsecurity, SiOpencv, SiTensorflow, SiSpring, SiOpenai, SiN8N, SiLangchain, SiMake  } from 'react-icons/si';
 import { MdOutlinePsychology, MdAutoAwesome } from "react-icons/md";
 import { GiArtificialIntelligence } from "react-icons/gi";
@@ -9,30 +9,30 @@ import { GiArtificialIntelligence } from "react-icons/gi";
 
 
 // const kills = [
-//   { name: 'HTML5', level: 98, icon: <FaHtml5 className="text-emerald-400" size={30} /> },
-//   { name: 'CSS3', level: 92, icon: <FaCss3Alt className="text-emerald-400" size={30} /> },
-//   { name: 'JavaScript', level: 95, icon: <FaJsSquare className="text-emerald-400" size={30} /> },
-//   { name: 'React', level: 90, icon: <FaReact className="text-emerald-400" size={30} /> },
-//   { name: 'Springboot', level: 85, icon: <SiSpringboot className="text-emerald-400" size={30} /> },
-//   { name: 'Spring Security', level: 85, icon: <SiSpringsecurity className="text-emerald-400" size={30} /> },
-//   { name: 'Spring Microservices', level: 85, icon: <SiSpring className="text-emerald-400" size={30} /> },
-//   { name: 'SQL Database', level: 85, icon: <FaDatabase className="text-emerald-400" size={30} /> },
-//   { name: 'Machine Learning', level: 85, icon: <FaBrain className="text-emerald-400" size={30} /> },
-//   { name: 'Deep Learning', level: 80, icon: <MdOutlinePsychology className="text-emerald-400" size={30} /> },
-//   { name: 'TensorFlow', level: 78, icon: <SiTensorflow className="text-emerald-400" size={30} /> },
-//   { name: 'NLP', level: 82, icon: <FaBrain className="text-emerald-400" size={30} /> },
-//   { name: 'OpenCV', level: 90, icon: <SiOpencv className="text-emerald-400" size={30} /> },
-//   { name: 'Generative AI', level: 80, icon: <GiArtificialIntelligence className="text-emerald-400" size={30} /> },
-//   { name: 'RAG (Retrieval Augmented Gen)', level: 78, icon: <MdAutoAwesome className="text-emerald-400" size={30} /> },
-//   { name: 'LangChain', level: 80, icon: <SiLangchain className="text-emerald-400" size={30} /> },
-//   { name: 'LangGraph', level: 80, icon: <SiOpenai className="text-emerald-400" size={30} /> },
-//   { name: 'Agentic AI', level: 75, icon: <FaRobot className="text-emerald-400" size={30} /> },
-//   { name: 'Make.com', level: 75, icon: <SiMake className="text-emerald-400" size={30} /> },
+//   { name: 'HTML5', level: 98, icon: <FaHtml5  /> },
+//   { name: 'CSS3', level: 92, icon: <FaCss3Alt  /> },
+//   { name: 'JavaScript', level: 95, icon: <FaJsSquare  /> },
+//   { name: 'React', level: 90, icon: <FaReact  /> },
+//   { name: 'Springboot', level: 85, icon: <SiSpringboot  /> },
+//   { name: 'Spring Security', level: 85, icon: <SiSpringsecurity  /> },
+//   { name: 'Spring Microservices', level: 85, icon: <SiSpring  /> },
+//   { name: 'SQL Database', level: 85, icon: <FaDatabase  /> },
+//   { name: 'Machine Learning', level: 85, icon: <FaBrain  /> },
+  // { name: 'Deep Learning', level: 80, icon: <MdOutlinePsychology  /> },
+  // { name: 'TensorFlow', level: 78, icon: <SiTensorflow  /> },
+  // { name: 'NLP', level: 82, icon: <FaBrain  /> },
+  // { name: 'OpenCV', level: 90, icon: <SiOpencv  /> },
+  // { name: 'Generative AI', level: 80, icon: <GiArtificialIntelligence  /> },
+  // { name: 'RAG (Retrieval Augmented Gen)', level: 78, icon: <MdAutoAwesome  /> },
+  // { name: 'LangChain', level: 80, icon: <SiLangchain  /> },
+  // { name: 'LangGraph', level: 80, icon: <SiOpenai  /> },
+  // { name: 'Agentic AI', level: 75, icon: <FaRobot  /> },
+  // { name: 'Make.com', level: 75, icon: <SiMake  /> },
   
-//   { name: 'N8N', level: 75, icon: <SiN8N className="text-emerald-400" size={30} /> },
+  // { name: 'N8N', level: 75, icon: <SiN8N  /> },
   
-//   { name: 'Git', level: 88, icon: <FaGitAlt className="text-emerald-400" size={30} /> },
-//   { name: 'Docker', level: 88, icon: <FaDocker className="text-emerald-400" size={30} /> },
+//   { name: 'Git', level: 88, icon: <FaGitAlt  /> },
+//   { name: 'Docker', level: 88, icon: <FaDocker  /> },
 // ];
 
 // export default function Skills() {
@@ -59,24 +59,42 @@ import { GiArtificialIntelligence } from "react-icons/gi";
 //   );
 // }
 import React from "react";
-import { FaReact,  FaGitAlt, FaHtml5, FaCss3Alt, FaJs, FaPython, FaDocker } from "react-icons/fa";
+import { FaReact,  FaGitAlt, FaHtml5, FaCss3Alt, FaJs, FaPython, FaDocker, FaBrain, FaRobot, FaBootstrap, FaJava } from "react-icons/fa";
 import SectionWrapper from "./SectionWrapper";
 
 // Define skill categories with icons
 const skills = {
+  
   Frontend: [
-    { name: "React", icon: <FaReact /> },
     { name: "HTML5", icon: <FaHtml5 /> },
     { name: "CSS3", icon: <FaCss3Alt /> },
     { name: "JavaScript", icon: <FaJs /> },
+    { name: "Bootstrap", icon: <FaBootstrap /> },
+    { name: "React", icon: <FaReact /> },
   ],
   Backend: [
+    { name: "Java", icon: <FaJava /> },
     { name: "Springboot", icon: <SiSpringboot /> },
     { name: 'Spring Security',  icon: <SiSpringsecurity /> },
     { name: 'Spring Microservices', icon: <SiSpring /> },
     { name: "Python", icon: <FaPython /> },
   ],
+  Technologies: [
+    { name: 'Machine Learning',icon: <FaBrain  /> },
+    { name: 'Deep Learning',  icon: <MdOutlinePsychology  /> },
+    { name: 'TensorFlow',  icon: <SiTensorflow  /> },
+    { name: 'NLP',  icon: <FaBrain /> },
+    { name: 'OpenCV',  icon: <SiOpencv /> },
+    { name: 'Generative AI', icon: <GiArtificialIntelligence  /> },
+    { name: 'RAG (Retrieval Augmented Gen)', icon: <MdAutoAwesome /> },
+    { name: 'LangChain',  icon: <SiLangchain  /> },
+    { name: 'LangGraph',  icon: <SiOpenai  /> },
+    { name: 'Agentic AI',  icon: <FaRobot  /> },  
+   
+
+  ],
   Tools: [
+     { name: 'N8N', icon: <SiN8N  /> },
     { name: "Git", icon: <FaGitAlt /> },
     { name: "Docker", icon: <FaDocker /> },
   ],
