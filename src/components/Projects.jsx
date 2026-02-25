@@ -70,7 +70,7 @@ const projects = [
     title: "CricSco - Live Cricket Score App",
     description: "Built a real-time cricket score platform, used RapidAPI to display live,upcoming, and recent matches, with dynamic match cards, a multi- section navbar, and detailed match pages featuring Live Updates, Scorecards, and Match Info.",
     tech: ["React", "Javascript", "Bootstrap"],
-    image: "/src/assets/project3.png",
+    image: "/src/assets/cricsco1.jpg",
     demo: "https://react-live-cricket-score-app-git-main-vansh-parmars-projects.vercel.app/",
     repo: "https://github.com/VANSHPAR/react--LiveCricketScore-app",
   },
@@ -98,7 +98,7 @@ const projects = [
     description: "Built a RAG-based system using Groq LLMs and HuggingFace embeddings to enable accurate, context-aware question answering over PDF documents. Designed a clean and interactive UI using Streamlit.",
     tech: ["Python", "Langchain", "FAISS"],
     image: "/src/assets/project3.png",
-    demo: "https://documentq-achatbot-srabzj4yo6vsxiguephepn.streamlit.app/",
+    demo: "https://github.com/VANSHPAR/Document_Q-A_Chatbot/blob/main/README.md/",
     repo: "https://github.com/VANSHPAR/Document_Q-A_Chatbot",
   },
   {
@@ -124,12 +124,12 @@ const ProjectCard = ({ title, description, tech, image, demo, repo }) => (
     transition={{ type: "spring", stiffness: 300 }}
   >
     {/* Project Image */}
-    <img
+    {/* <img
       src={image}
       alt={title}
       loading="lazy"
       className="rounded-lg shadow-soft mb-4"
-    />
+    /> */}
     {/* Title */}
     <h3 className="text-xl font-semibold text-teal-400 mb-2">{title}</h3>
     {/* Description */}

@@ -37,15 +37,9 @@ const education = [
     institution: "The Maharaja Sayajirao University of Baroda",
     degree: "B.E. Computer Science & Engineering",
     period: "2023 – 2027",
-    details: "Graduated with honors, focusing on algorithms, data structures, and software engineering principles.",
+    details: "Focusing on algorithms, data structures, and software engineering principles.",
   },
-  {
-    id: 2,
-    institution: "University Y",
-    degree: "M.Sc. Software Engineering",
-    period: "2021‑2023",
-    details: "Specialized in distributed systems and cloud-native application development. Thesis on micro‑service orchestration.",
-  },
+ 
   // Add more entries as needed
 ];
 

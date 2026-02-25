@@ -17,7 +17,7 @@ const platforms = [
   {
     name: 'GeeksforGeeks',
     icon: <SiGeeksforgeeks size={48} className="text-emerald-400" />,
-    url: 'https://auth.geeksforgeeks.org/user/username',
+    url: 'https://www.geeksforgeeks.org/profile/vanshzox8',
   },
 ];
 
@@ -31,17 +31,22 @@ export default function CodingPlatforms() {
       <h2 className="text-4xl font-bold mb-8 text-center text-white">
         Coding Platforms
       </h2>
-      <div className=" flex justify-center space-x-12">
+      <div className=" flex justify-center  space-x-12">
         {platforms.map((p, i) => (
           <a
             key={i}
             href={p.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="transform hover:scale-110 transition"
+            // className="transform hover:scale-110 transition"
+            className="flex flex-col items-center gap-2 transform hover:scale-110 transition"
           >
-            {p.icon}
-            <p className="mt-2 text-gray-300 text-center">{p.name}</p>
+            {/* {p.icon}
+            <p className="mt-2 text-gray-300 text-center">{p.name}</p> */}
+            <div className="text-5xl">{p.icon}</div>
+            <p className="text-gray-300 text-sm  text-center">
+              {p.name}
+            </p>
           </a>
         ))}
       </div>

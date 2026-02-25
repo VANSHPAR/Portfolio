@@ -8,9 +8,9 @@ import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
  * and displays social media icons.
  *
  * Environment variables required (place them in a .env file at the project root):
- * REACT_APP_EMAILJS_SERVICE_ID
- * REACT_APP_EMAILJS_TEMPLATE_ID
- * REACT_APP_EMAILJS_USER_ID
+ * REACT_EMAILJS_SERVICE_ID
+ * REACT_EMAILJS_TEMPLATE_ID
+ * REACT_EMAILJS_USER_ID
  */
 export default function Contact() {
   const [status, setStatus] = useState(null); // null | 'SUCCESS' | 'ERROR'
@@ -25,10 +25,10 @@ export default function Contact() {
     };
     try {
       await emailjs.send(
-        process.env.REACT_APP_EMAILJS_SERVICE_ID,
-        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         templateParams,
-        process.env.REACT_APP_EMAILJS_USER_ID
+        import.meta.env.VITE_EMAILJS_USER_ID
       );
       setStatus('SUCCESS');
     } catch (err) {

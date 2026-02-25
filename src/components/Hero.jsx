@@ -58,8 +58,8 @@ const scrollToSection = (id) => {
 
 // Personal data – adjust as needed
 const name = "Vansh Parmar";
-const role = "Full‑Stack Developer";
-const tagline = "Building performant, beautiful web experiences.";
+const role = "Computer Science Student | Software & AI Developer";
+const tagline = "Passionate about software development, AI, and problem solving";
 
 const Hero = () => {
   return (
